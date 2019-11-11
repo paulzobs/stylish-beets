@@ -1,11 +1,10 @@
 html {
   background-color: #c9b5ab;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 img {
   width: 100%;
-  padding: 20px;
 }
 
 h1, h2, h3, h4 {
@@ -44,33 +43,44 @@ figcaption {
 }
 
 p {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
 }
 
 blockquote {
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
   font-weight: normal;
 }
 
 footer {
+  font-family: "PT Serif", serif;
   font-size: .8rem;
 }
 
 aside ul {
+  font-family: "PT Serif", serif;
   font-size: .8rem;
   list-style-type: circle;
 }
 
 dt {
+  font-family: "PT Serif", serif;
   font-style: normal;
 }
 
 footer a {
+  font-family: "PT Serif", serif;
   text-decoration: none;
   color: #8f2440;
 }
 
+.serving {
+  line-height: 1.5;
+  font-style: italic;
+}
+
 .bold {
+  font-family: "PT Serif", serif;
   font-weight: bold;
 }
