@@ -1,17 +1,72 @@
 html {
   background-color: #c9b5ab;
+  line-height: 1.5rem;
+}
+
+img {
+  width: inherit;
+  padding: 20px;
 }
 
 h1, h2, h3, h4 {
-  font-family: "PT Sans",sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #3f1622
+  color: #3f1622;
 }
 
-nav a{
-  font-family: "PT Sans",sans-serif;
+ol a {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
-  font-weight: "bold";
+  font-weight: bold;
   color: #8f2440;
+  text-decoration: none;
+}
+
+ol a:hover {
+  text-decoration: underline;
+  color: #3f1622;
+}
+
+nav ol li {
+  list-style-type: none;
+}
+
+.greek {
+  list-style-type: lower-greek;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+p {
+  font-family: "PT Serif";
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+aside ul {
+  font-size: .8rem;
+}
+
+dt {
+  font-style: normal;
+}
+
+footer a {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+.bold {
+  font-weight: bold;
 }
